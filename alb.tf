@@ -6,7 +6,7 @@ resource "aws_lb" "application-lb" {
   security_groups    = [aws_security_group.lb-sg.id]
   subnets            = [aws_subnet.subnet_1.id, aws_subnet.subnet_2.id]
   tags = {
-    Name = "Jenkins-LB"
+    Name = "Jenkins-LB1"
   }
 }
 
